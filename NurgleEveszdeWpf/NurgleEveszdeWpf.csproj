@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\N.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="deadpool-dance-bye-bye-bye.gif" />
+    <None Remove="key.png" />
+    <None Remove="key_1.png" />
+    <None Remove="nurgle.jpg" />
+    <None Remove="Nuu.jpg" />
+    <None Remove="user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\N.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="deadpool-dance-bye-bye-bye.gif" />
+    <Resource Include="key.png" />
+    <Resource Include="key_1.png" />
+    <Resource Include="nurgle.jpg" />
+    <Resource Include="Nuu.jpg" />
+    <Resource Include="user.png" />
+  </ItemGroup>
+
+</Project>
